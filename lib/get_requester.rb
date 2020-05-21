@@ -11,7 +11,7 @@ class GetRequester
   
   def get_response_body 
     uri = URI.parse(self.url)
-    responses = Net::HTTP.get_respnse(uri)
+    responses = Net::HTTP.get_response(uri)
     
   end 
   
