@@ -9,6 +9,6 @@ class GetRequester
   
   def get_response_body 
     uri = URI.parse(self.url)
-    uri.open
+    uri.open.string
   end 
 end 
