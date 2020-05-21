@@ -1,5 +1,6 @@
 require 'open-uri'
 require 'json'
+require 'net/http'
 
 class GetRequester 
   attr_accessor :url
